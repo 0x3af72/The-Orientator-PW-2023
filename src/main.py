@@ -27,10 +27,10 @@ async def query_command(ctx:Context):
 # non-essential
 @bot.command(name="quit")
 async def quit_command(ctx:Context):
-    global tokenizer
+    # global tokenizer # this isnt even defined?
     await ctx.send(f"Exiting at {time.strftime('%Y-%m-%d %H:%M:%S')}")
-    tokenizer.save_pretrained("./model/")
-    sys.exit()
+    # tokenizer.save_pretrained("./model/")
+    await bot.close()
 
 # login confirmation
 @bot.event
