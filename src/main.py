@@ -4,11 +4,6 @@ from nextcord.ext.commands.context import Context
 import query_response
 import json
 
-import torch
-from transformers import pipeline
-
-generator = pipeline("text-generation", model="gpt2")
-
 # non-essential
 import sys
 import time
@@ -18,15 +13,13 @@ bot = commands.Bot(command_prefix="!", intents=nextcord.Intents.all())
 
 # !query command
 @bot.command(name="query")
-async def query_command(ctx:Context):
-    # get the query
+async def query_command(ctx: Context):
     query = ctx.message.content[2 + len("query"):]
-    # reply
-    await ctx.send(query_response.query_response(query, generator=generator))
+    await ctx.send(query_response.query_response(query, ctx.author.id))
 
 # non-essential
 @bot.command(name="quit")
-async def quit_command(ctx:Context):
+async def quit_command(ctx: Context):
     # global tokenizer # this isnt even defined?
     await ctx.send(f"Exiting at {time.strftime('%Y-%m-%d %H:%M:%S')}")
     # tokenizer.save_pretrained("./model/")

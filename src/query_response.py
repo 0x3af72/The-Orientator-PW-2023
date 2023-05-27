@@ -1,12 +1,19 @@
-'''
-This is the module imported in the main code.
-Here we generate the response for the user's query about HCI.
-'''
+import torch
+from transformers import pipeline, Conversation
 
-from transformers import pipeline
+import sqlite3
 
-def query_response(query, generator: pipeline):
-    responses = [text["generated_text"] for text in generator(query, max_length=60, num_return_sequences=3)]
-    print(responses)
-    responses = [text.replace("\n\n", "\n") for text in responses]
-    return "Responses Given : \n" + "\n\n\n".join(responses)
+con = sqlite3.connect("conversation_history.db")
+# con.execute("CREATE TABLE ") # THIS IS NOT DONE EITHER
+
+generator = pipeline("conversational", model="microsoft/DialoGPT-large")
+
+def query_response(query, user_id):
+    # load conversation history and then add into conversation object and then add latest query
+    convo = Conversation()
+    # convo.add_user_input(input)
+    # convo.append_response(bot response that we loaded)
+    # convo.mark_processed()
+    # thats for each interaction
+    # then after that add user input the latest one
+    return generator(Conversation(query), max_length=100)
