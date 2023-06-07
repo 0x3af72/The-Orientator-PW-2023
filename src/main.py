@@ -15,7 +15,7 @@ bot = commands.Bot(command_prefix="!", intents=nextcord.Intents.all())
 @bot.command(name="query")
 async def query_command(ctx: Context):
     query = ctx.message.content[2 + len("query"):]
-    await ctx.send(query_response.query_response(query, ctx.author.id))
+    await ctx.send(query_response.query_response(query, str(ctx.author.id)))
 
 # non-essential
 @bot.command(name="quit")
