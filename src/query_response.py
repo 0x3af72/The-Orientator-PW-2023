@@ -18,8 +18,10 @@ dialogpt_tokeniser = AutoTokenizer.from_pretrained("microsoft/DialoGPT-large")
 print("Creating model...")
 blender_model = BlenderbotForConditionalGeneration.from_pretrained("facebook/blenderbot-1B-distill")
 dialogpt_model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-large")
+print("Done!")
 
 def query_response(query, user_id):
+
     # get database cursor
     con = sqlite3.connect("conversation_history.db") # NOTE: not sure if we should keep connecting
     cur = con.cursor()
@@ -73,6 +75,12 @@ def query_response(query, user_id):
     # decode response
     blender_response_text = blender_tokeniser.batch_decode(blender_response_tokens, skip_special_tokens=True)[0].strip()
     dialogpt_response_text = dialogpt_tokeniser.decode(dialogpt_response_tokens[:, dialogpt_input_tokens.shape[-1]:][0], skip_special_tokens=True)
+    print(f"""
+QUERY: {query}
+USER ID: {user_id}
+BLENDER RESPONSE: {blender_response_text}
+DIALOGPT RESPONSE: {dialogpt_response_text}
+""")
 
     # add to history
     blender_history.append(blender_response_text)
