@@ -155,3 +155,5 @@ cython_debug/
 # Other
 test/
 bot.json
+models/test_model/*
+!models/test_model/final
