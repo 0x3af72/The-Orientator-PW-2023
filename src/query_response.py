@@ -1,5 +1,5 @@
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 import sqlite3
 import json
@@ -32,8 +32,7 @@ def query_response(query, user_id):
         dialogpt_history = json.loads(dialogpt_rows[0][1])
     else: # nothing yet
         dialogpt_history = []
-    
-    blender_history.append(query)
+        
     dialogpt_history.append(query)
 
     # tokenise chat history and query
@@ -62,11 +61,9 @@ DIALOGPT RESPONSE: {dialogpt_response_text}
     dialogpt_history.append(dialogpt_response_text)
 
     # limiting input tokens to 7 (including input)
-    blender_history = blender_history[-6:]
     dialogpt_history = dialogpt_history[-6:]
 
     # add conversation record into db, close connection
-    blender_json = json.dumps(blender_history)
     dialogpt_json = json.dumps(dialogpt_history)
 
     if not dialogpt_rows:
