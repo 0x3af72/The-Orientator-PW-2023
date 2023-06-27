@@ -45,7 +45,8 @@ def query_response(query, user_id):
             do_sample = True,
             top_k = 100,
             top_p = 0.90, 
-            temperature = 0.75,
+            temperature = 0.70,
+            repetition_penalty=1.3,
             pad_token_id = dialogpt_model.eos_token_id
         )
     
