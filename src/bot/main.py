@@ -11,6 +11,7 @@ from nextcord.ext import commands
 from nextcord.ext.commands.context import Context
 
 # others
+import isp_qna
 import query_response
 import json
 
@@ -54,29 +55,34 @@ class TicketButton(nextcord.ui.View):
 # formerly !query command
 @bot.event
 async def on_message(message):
+
     # ignore messages from bot
     if message.author == bot.user:
         return
+    
+    # # get the event details
+    if message.content.startswith("?date "):
+        event_name = message.content.strip("?date ")
+        if not event_name: return
+        data = isp_qna.qna(event_name)
+        if not data:
+            return await message.reply("No matches found for this event.")
+        event_data = data[1]
+        return await message.reply(f"Event '{data[0]}' is on the date {event_data['day']}/{event_data['month']} and it lasts for {event_data['num_days']} days.")
 
     # check if in valid channel
-    if not message.channel.id in channel_ids:
-        return
+    if message.channel.id in channel_ids:
 
-    # start timer
-    start = time.time()
-    query = message.content
-    print(f"querying... query: {query}")
-    await message.channel.send(query_response.query_response(query, str(message.author.id)))
+        # start timer
+        start = time.time()
+        query = message.content
+        print(f"querying... query: {query}")
+        await message.channel.send(query_response.query_response(query, str(message.author.id)))
 
-    # end timer
-    end = time.time()
-    await message.channel.send(f"Program took `{round(end - start, 6)}s`")
-
-# non-essential
-@bot.command(name="quit")
-async def quit_command(ctx: Context):
-    await ctx.send(f"Exiting at {time.strftime('%Y-%m-%d %H:%M:%S')}")
-    await bot.close()
+        # end timer
+        end = time.time()
+        await message.channel.send(f"Program took `{round(end - start, 6)}s`")
+    
 
 # login confirmation
 on_ready_ran = False
@@ -110,7 +116,7 @@ async def on_ready():
 
 if __name__ == "__main__":
     
-    # load bot data 
+    # load bot data
     with open("bot.json", "r") as r:
         bot_data = json.load(r)
 
