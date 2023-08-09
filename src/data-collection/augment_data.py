@@ -44,6 +44,7 @@ data = None
 print("Loading data from CSV file...", end="")
 with open(PARENT_DIR + "src/data/base_data.csv", 'r') as file:
     data = list(csv.reader(file))
+    random.shuffle(data)
 print("Done")
 
 state = None
