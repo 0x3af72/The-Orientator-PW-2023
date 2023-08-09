@@ -154,6 +154,8 @@ cython_debug/
 
 # Other
 test/
+src/temp
+
 bot.json
 models/*
-# !models/test-model/final
+conversation_history.db
