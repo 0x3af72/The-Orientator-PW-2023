@@ -1,7 +1,5 @@
 # non-essential
-import sys
 import time
-import timeit
 
 global_start = time.time()
 
@@ -11,9 +9,15 @@ from nextcord.ext import commands
 from nextcord.ext.commands.context import Context
 
 # others
-import isp_qna
+import get_isp_events
 import query_response
 import json
+
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+PARENT_DIR = os.environ.get("PARENT_DIR")
 
 # intro message
 intro_message = """I am the Orientator.
@@ -26,19 +30,17 @@ Click the button below to create a channel where you can interact with me privat
 """
 
 # create bot
-bot = commands.Bot(command_prefix="?", intents=nextcord.Intents.all())
+bot = commands.Bot(command_prefix="!", intents=nextcord.Intents.all())
 
 # button for creating ticket
 channel_ids = set()
 users_with_channels = set()
 class TicketButton(nextcord.ui.View):
-
     def _init_(self):
         super().__init__()
     
     @nextcord.ui.button(label="Create Ticket", style=nextcord.ButtonStyle.green)
     async def create_ticket(self, button, interaction):
-
         # prevent duplicates
         if interaction.user.id in users_with_channels:
             return
@@ -55,44 +57,41 @@ class TicketButton(nextcord.ui.View):
 # formerly !query command
 @bot.event
 async def on_message(message):
-
     # ignore messages from bot
     if message.author == bot.user:
         return
     
-    # # get the event details
-    if message.content.startswith("?date "):
-        event_name = message.content.strip("?date ")
-        if not event_name: return
-        data = isp_qna.qna(event_name)
+    # get the event details
+    if message.content.startswith("!date "):
+        event_name = message.content.strip("!date ")
+        if not event_name: 
+            return
+        data = get_isp_events.get_event(event_name)
         if not data:
             return await message.reply("No matches found for this event.")
+        print(data)
         event_data = data[1]
-        return await message.reply(f"Event '{data[0]}' is on the date {event_data['day']}/{event_data['month']} and it lasts for {event_data['num_days']} days.")
+        return await message.reply(f"Event Details '{data[0]}' is on the date {event_data['day']}/{event_data['month']} and it lasts for {event_data['num_days']} days.")
 
     # check if in valid channel
     if message.channel.id in channel_ids:
-
-        # start timer
-        start = time.time()
         query = message.content
-        print(f"querying... query: {query}")
-        await message.channel.send(query_response.query_response(query, str(message.author.id)))
-
-        # end timer
-        end = time.time()
-        await message.channel.send(f"Program took `{round(end - start, 6)}s`")
-    
+        await message.channel.send(query_response.query_response(query, str(message.author.id)))    
 
 # login confirmation
 on_ready_ran = False
 @bot.event
 async def on_ready():
-
     # prevent accidental rerunning when bot randomly reconnects to discord i think
     global on_ready_ran
-    if on_ready_ran: return
+    if on_ready_ran: 
+        return
     on_ready_ran = True
+    print((f"Logged in at `{time.strftime('%Y-%m-%d %H:%M:%S')}`"))
+
+    # send some info
+    channel = bot.get_channel(1094132670394548294)
+    await channel.send(f"Logged in at `{time.strftime('%Y-%m-%d %H:%M:%S')}`")
 
     # delete all existing conversation channels
     for channel in bot.get_guild(1090509423992131695).channels:
@@ -106,19 +105,14 @@ async def on_ready():
     # send message with button
     ticket_button = TicketButton()
     await channel.send(intro_message, view=ticket_button)
-    
-    # send some info
-    channel = bot.get_channel(1094132670394548294)
-    await channel.send(f"Logged in at {time.strftime('%Y-%m-%d %H:%M:%S')}")
 
     global_end = time.time()
-    await channel.send(f"Program start took `{round(global_end - global_start, 6)}s`")
+    await channel.send(f"Program start took `{round(global_end - global_start, 6)}s`", delete_after=5)
 
 if __name__ == "__main__":
-    
     # load bot data
-    with open("bot.json", "r") as r:
-        bot_data = json.load(r)
+    with open(PARENT_DIR + "bot.json", "r") as file:
+        bot_data = json.load(file)
 
     # start bot
     bot.run(bot_data["token"])

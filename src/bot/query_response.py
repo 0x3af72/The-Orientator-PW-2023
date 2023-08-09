@@ -1,8 +1,10 @@
-import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers.utils import logging
 
 import sqlite3
 import json
+
+logging.set_verbosity_error()
 
 con = sqlite3.connect("conversation_history.db")
 cur = con.cursor()
@@ -10,15 +12,18 @@ cur.execute("CREATE TABLE IF NOT EXISTS dialogpt_conversations (user_id TEXT, ch
 con.commit()
 con.close()
 
-print("Creating tokeniser...")
+print("Loading DialoGPT tokeniser...", end="")
 dialogpt_tokeniser = AutoTokenizer.from_pretrained("microsoft/DialoGPT-small")
+print("Done")
 
-print("Creating model...")
+print("Loading DialoGPT model...", end="")
 dialogpt_model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-small")
-print("Done!")
+print("Done")
+
+dialogpt_tokeniser.pad_token = dialogpt_tokeniser.eos_token
+dialogpt_tokeniser.pad_token_id = dialogpt_tokeniser.eos_token_id
 
 def query_response(query, user_id):
-
     # get database cursor
     con = sqlite3.connect("conversation_history.db") # NOTE: not sure if we should keep connecting
     cur = con.cursor()
@@ -36,7 +41,11 @@ def query_response(query, user_id):
     dialogpt_history.append(query)
 
     # tokenise chat history and query
-    dialogpt_input_tokens = dialogpt_tokeniser.encode(f"{dialogpt_tokeniser.eos_token}".join(dialogpt_history) + dialogpt_tokeniser.eos_token, return_tensors='pt') 
+    dialogpt_input_tokens = dialogpt_tokeniser.encode(
+        f"{dialogpt_tokeniser.eos_token}".join(dialogpt_history[:3]) + dialogpt_tokeniser.eos_token, 
+        padding=True, 
+        truncation=True, 
+        return_tensors="pt")
 
     # generate response through top_k and top_p sampling    
     dialogpt_response_tokens = dialogpt_model.generate(
@@ -45,8 +54,7 @@ def query_response(query, user_id):
             do_sample = True,
             top_k = 100,
             top_p = 0.90, 
-            temperature = 0.70,
-            repetition_penalty=1.3
+            temperature = 0.70
         )
     
     # decode response
@@ -54,7 +62,7 @@ def query_response(query, user_id):
     print(f"""
 QUERY: {query}
 USER ID: {user_id}
-DIALOGPT RESPONSE: {dialogpt_response_text}
+RESPONSE: {dialogpt_response_text}
 """)
 
     # add to history
