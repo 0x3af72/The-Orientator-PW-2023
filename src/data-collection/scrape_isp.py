@@ -7,11 +7,12 @@ import json
 import os
 from dotenv import load_dotenv
 
+from tqdm import tqdm
+
 load_dotenv()
 
 # Paths
 EXECUTABLE_PATH = os.environ.get("EXECUTABLE_PATH")
-BRAVE_PATH = os.environ.get("BRAVE_PATH")
 PARENT_DIR = os.environ.get("PARENT_DIR")
 
 # Days of month before
@@ -41,7 +42,6 @@ def variations(event_title):
 def scrape_events(year):
     # Driver stuff
     options = webdriver.ChromeOptions()
-    options.binary_location = BRAVE_PATH
     prefs = {"profile.default_content_setting_values.notifications": 2}
     options.add_experimental_option("prefs", prefs)
     options.add_experimental_option("excludeSwitches", ["enable-logging"])
@@ -50,13 +50,13 @@ def scrape_events(year):
     options.add_argument("--headless")
     driver = webdriver.Chrome(service=Service(EXECUTABLE_PATH), options=options)
     driver.execute_cdp_cmd("Network.enable", {})
-    cookies = load_cookies("isp_cookies.json") # Read cookies here
+    cookies = load_cookies(PARENT_DIR + "isp_cookies.json") # Read cookies here
     for cookie in cookies:
         cookie["sameSite"] = "None" # Idk what this does but dont delete it
         driver.execute_cdp_cmd("Network.setCookie", cookie)
 
     events = {}
-    for month in range(12):
+    for month in tqdm(range(12), desc="Retrieving data for months"):
         # Open calendar for new month
         driver.get(f"https://isphs.hci.edu.sg/eventcalendar.asp?year={year}&month={month + 1}")
 
@@ -95,7 +95,6 @@ def scrape_events(year):
 
             # Preprocess event title into multiple variations
             event_title_variations = variations(event_title)
-            print(event_title_variations)
 
             # Add to dict
             for event_title in event_title_variations:
