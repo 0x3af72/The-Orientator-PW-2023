@@ -1,1 +1,647 @@
-{"Term 1": {"day": 3, "month": 1, "num_days": 282}, "New Year's Day": {"day": 1, "month": 1, "num_days": 1}, "New Year's Day (Public Holiday)": {"day": 2, "month": 1, "num_days": 1}, "1st day of sch for HS teachers & students": {"day": 3, "month": 1, "num_days": 1}, "1st day of sch for Highschool teachers & students": {"day": 3, "month": 1, "num_days": 1}, "1st day of School for HS teachers & students": {"day": 3, "month": 1, "num_days": 1}, "CCA Orientation I": {"day": 6, "month": 1, "num_days": 1}, "CCAO I": {"day": 6, "month": 1, "num_days": 1}, "Start of JC2": {"day": 9, "month": 1, "num_days": 1}, "Start of J2": {"day": 9, "month": 1, "num_days": 1}, "SEC 1 PHOTOS TAKING 2023": {"day": 10, "month": 1, "num_days": 1}, "CCA Orientation II": {"day": 11, "month": 1, "num_days": 1}, "CCAO II": {"day": 11, "month": 1, "num_days": 1}, "CCA Orientation III": {"day": 13, "month": 1, "num_days": 1}, "CCAO III": {"day": 13, "month": 1, "num_days": 1}, "CCA Orientation IV": {"day": 18, "month": 1, "num_days": 1}, "CCAO IV": {"day": 18, "month": 1, "num_days": 1}, "CNY Celebration": {"day": 20, "month": 1, "num_days": 1}, "Chinese New Year": {"day": 22, "month": 1, "num_days": 2}, "Chinese New Year (Public Holiday)": {"day": 24, "month": 1, "num_days": 1}, "CCA Orientation V": {"day": 25, "month": 1, "num_days": 1}, "CCAO V": {"day": 25, "month": 1, "num_days": 1}, "S1 and S2 Parents' Symposium (Time TBC)": {"day": 4, "month": 2, "num_days": 1}, "Sec 1 and S2 Parents' Symposium (Time TBC)": {"day": 4, "month": 2, "num_days": 1}, "S1 and Sec 2 Parents' Symposium (Time TBC)": {"day": 4, "month": 2, "num_days": 1}, "NRIC REGISTRATION FOR 15 YEARS OLD": {"day": 7, "month": 2, "num_days": 1}, "Photo Taking for Yearbook": {"day": 10, "month": 2, "num_days": 2}, "S3 and S4 Parents' Symposium (Time TBC)": {"day": 18, "month": 2, "num_days": 1}, "Sec 3 and S4 Parents' Symposium (Time TBC)": {"day": 18, "month": 2, "num_days": 1}, "S3 and Sec 4 Parents' Symposium (Time TBC)": {"day": 18, "month": 2, "num_days": 1}, "Sec 3 & J1 ESIS Test (Shortlisted students)": {"day": 4, "month": 3, "num_days": 1}, "Sabbaticals": {"day": 6, "month": 3, "num_days": 10}, "Sabbats": {"day": 6, "month": 3, "num_days": 10}, "Secondary One Adventure Camp (SOAC)": {"day": 8, "month": 3, "num_days": 3}, "Chinese Song Singing Competition": {"day": 23, "month": 3, "num_days": 1}, "Project Work Proposal Evaluation": {"day": 30, "month": 3, "num_days": 1}, "Personal Learning Device Deployment": {"day": 30, "month": 3, "num_days": 1}, "Founders' Day Prize Giving Ceremony": {"day": 3, "month": 4, "num_days": 1}, "World Book Day Celebrations": {"day": 5, "month": 4, "num_days": 1}, "Good Friday": {"day": 7, "month": 4, "num_days": 1}, "Sec 4 Higher Chinese Oral": {"day": 10, "month": 4, "num_days": 4}, "HS Studies Committee Meeting (SCM)": {"day": 20, "month": 4, "num_days": 1}, "Highschool Studies Committee Meeting (SCM)": {"day": 20, "month": 4, "num_days": 1}, "Hari Raya Puasa": {"day": 22, "month": 4, "num_days": 1}, "Hari Raya Puasa (scheduled Sch Holiday)": {"day": 24, "month": 4, "num_days": 1}, "Hari Raya Puasa (Schooleduled Sch Holiday)": {"day": 24, "month": 4, "num_days": 1}, "Sec 3 Higher Chinese Oral Exam": {"day": 2, "month": 5, "num_days": 4}, "Labour Day": {"day": 1, "month": 5, "num_days": 1}, "English Lan & Lit Common Test (Sec 1 & 2)": {"day": 5, "month": 5, "num_days": 1}, "Secondary 3 Outward Bound Singapore Programme (Batch 1)": {"day": 8, "month": 5, "num_days": 5}, "Secondary 3 OBS Programme (Batch 1)": {"day": 8, "month": 5, "num_days": 5}, "Secondary 3 Outward Bound Singapore Programme (Batch 2)": {"day": 15, "month": 5, "num_days": 5}, "Secondary 3 OBS Programme (Batch 2)": {"day": 15, "month": 5, "num_days": 5}, "High School Open House": {"day": 20, "month": 5, "num_days": 1}, "Vesak Day": {"day": 2, "month": 6, "num_days": 1}, "National Chinese Riddle Competition": {"day": 24, "month": 6, "num_days": 1}, "Hari Raya Haji": {"day": 29, "month": 6, "num_days": 1}, "Higher Chinese Common Test 2 (Sec 1 to 4)": {"day": 30, "month": 6, "num_days": 1}, "Youth Day": {"day": 2, "month": 7, "num_days": 1}, "Youth Day (scheduled school holiday)": {"day": 3, "month": 7, "num_days": 1}, "Youth Day (Schooleduled Schoolool holiday)": {"day": 3, "month": 7, "num_days": 1}, "Mathematics Common Test (Sec 1 to 4)": {"day": 7, "month": 7, "num_days": 1}, "Asian Youth Chinese Forum": {"day": 10, "month": 7, "num_days": 3}, "Project Work Discussions (Sec 2 to 4)": {"day": 14, "month": 7, "num_days": 1}, "Chinese Drama Appreciation (Sec 1)": {"day": 11, "month": 7, "num_days": 1}, "Biology Common Test (Sec 3 & 4)": {"day": 12, "month": 7, "num_days": 1}, "Bio Common Test (Sec 3 & 4)": {"day": 12, "month": 7, "num_days": 1}, "Chinese Drama Appreciation (Sec 3)": {"day": 12, "month": 7, "num_days": 1}, "CSC Common Test": {"day": 19, "month": 7, "num_days": 1}, "Project Work Discussions": {"day": 21, "month": 7, "num_days": 1}, "SBNDP Rehearsal 1": {"day": 19, "month": 7, "num_days": 1}, "SBNDP Rehearsal 2": {"day": 21, "month": 7, "num_days": 1}, "Australian Math Competition": {"day": 3, "month": 8, "num_days": 1}, "EL Drama Club's Annual Production": {"day": 4, "month": 8, "num_days": 1}, "Social Studies/HP-GE Common Test (Sec 3 & 4)": {"day": 4, "month": 8, "num_days": 1}, "SBNDP Rehearsal 3": {"day": 4, "month": 8, "num_days": 1}, "National Day": {"day": 9, "month": 8, "num_days": 1}, "National Day (scheduled Sch Holiday)": {"day": 10, "month": 8, "num_days": 1}, "National Day (Schooleduled Sch Holiday)": {"day": 10, "month": 8, "num_days": 1}, "Project Work Report Submission (Sec 2-4)": {"day": 11, "month": 8, "num_days": 1}, "Sec 4 EOC Practical Exam Briefing": {"day": 11, "month": 8, "num_days": 1}, "S4 Prelim Exams": {"day": 18, "month": 8, "num_days": 13}, "Sec 4 Prelim Exams": {"day": 18, "month": 8, "num_days": 13}, "Project Work Final Evaluation for Sec 2-4": {"day": 17, "month": 8, "num_days": 1}, "Project Work Reflection Submission (Sec 2-4)": {"day": 18, "month": 8, "num_days": 1}, "S3 Options Briefing for S2 Parents": {"day": 19, "month": 8, "num_days": 1}, "S3 Options Briefing for Sec 2 Parents": {"day": 19, "month": 8, "num_days": 1}, "Sec 3 Options Briefing for S2 Parents": {"day": 19, "month": 8, "num_days": 1}, "Sec 3 Options Briefing": {"day": 18, "month": 8, "num_days": 1}, "Chinese Song Writing Competition": {"day": 18, "month": 8, "num_days": 1}, "Sec 2 Speech Assessment": {"day": 23, "month": 8, "num_days": 2}, "Sec 4 Physics Practical Examination": {"day": 21, "month": 8, "num_days": 1}, "Sec 4 Phys Practical Examination": {"day": 21, "month": 8, "num_days": 1}, "Chinese Drama Performance": {"day": 24, "month": 8, "num_days": 2}, "Sec 4 Biology Practical Examination": {"day": 23, "month": 8, "num_days": 1}, "Sec 4 Bio Practical Examination": {"day": 23, "month": 8, "num_days": 1}, "Projects Selection for Projects Day": {"day": 24, "month": 8, "num_days": 1}, "Sec 4 Chemistry Practical Examination": {"day": 29, "month": 8, "num_days": 1}, "Sec 4 Chem Practical Examination": {"day": 29, "month": 8, "num_days": 1}, "Teachers' Day": {"day": 1, "month": 9, "num_days": 1}, "Projects Day 2023 (Rehearsal 1)": {"day": 4, "month": 9, "num_days": 1}, "Term 4": {"day": 11, "month": 9, "num_days": 89}, "S4 Prelim Exams (cont'd)": {"day": 11, "month": 9, "num_days": 5}, "Sec 4 Prelim Exams (cont'd)": {"day": 11, "month": 9, "num_days": 5}, "Projects Day 2023 (Full Dress Rehearsal)": {"day": 11, "month": 9, "num_days": 1}, "BSP Oral Defence": {"day": 13, "month": 9, "num_days": 1}, "Projects Day 2023 (Tech Rehearsal)": {"day": 14, "month": 9, "num_days": 1}, "Projects Day": {"day": 15, "month": 9, "num_days": 1}, "S4 MSP Exam": {"day": 20, "month": 9, "num_days": 1}, "Sec 4 MSP Exam": {"day": 20, "month": 9, "num_days": 1}, "S4 EOY Exams": {"day": 27, "month": 9, "num_days": 22}, "Sec 4 EOY Exams": {"day": 27, "month": 9, "num_days": 22}, "S3 EOY Exams": {"day": 28, "month": 9, "num_days": 21}, "Sec 3 EOY Exams": {"day": 28, "month": 9, "num_days": 21}, "S1 & 2 EOY Exams": {"day": 29, "month": 9, "num_days": 20}, "Sec 1 & 2 EOY Exams": {"day": 29, "month": 9, "num_days": 20}, "Exams Marking Days": {"day": 12, "month": 10, "num_days": 2}, "Exam Paper Checking Days": {"day": 16, "month": 10, "num_days": 3}, "Festival of Sports, Health & Arts (FOSHA) (Tentative)": {"day": 19, "month": 10, "num_days": 4}, "S1 Project Work Training (Time TBC)": {"day": 19, "month": 10, "num_days": 4}, "Sec 1 Project Work Training (Time TBC)": {"day": 19, "month": 10, "num_days": 4}, "Last day of sch for HS students": {"day": 27, "month": 10, "num_days": 1}, "Last day of sch for Highschool students": {"day": 27, "month": 10, "num_days": 1}, "Last day of School for HS students": {"day": 27, "month": 10, "num_days": 1}, "Year-End Remedial Programme": {"day": 30, "month": 10, "num_days": 32}, "Year-End School Holidays": {"day": 18, "month": 11, "num_days": 58}, "Deepavali": {"day": 12, "month": 11, "num_days": 1}, "Deepavali (Public Holiday)": {"day": 13, "month": 11, "num_days": 1}, "Christmas Day": {"day": 25, "month": 12, "num_days": 1}}
+{
+    "Term 1": {
+        "day": 3,
+        "month": 1,
+        "num_days": 282
+    },
+    "New Year's Day": {
+        "day": 1,
+        "month": 1,
+        "num_days": 1
+    },
+    "New Year's Day (Public Holiday)": {
+        "day": 2,
+        "month": 1,
+        "num_days": 1
+    },
+    "1st day of sch for HS teachers & students": {
+        "day": 3,
+        "month": 1,
+        "num_days": 1
+    },
+    "1st day of sch for Highschool teachers & students": {
+        "day": 3,
+        "month": 1,
+        "num_days": 1
+    },
+    "1st day of School for HS teachers & students": {
+        "day": 3,
+        "month": 1,
+        "num_days": 1
+    },
+    "CCA Orientation I": {
+        "day": 6,
+        "month": 1,
+        "num_days": 1
+    },
+    "CCAO I": {
+        "day": 6,
+        "month": 1,
+        "num_days": 1
+    },
+    "Start of JC2": {
+        "day": 9,
+        "month": 1,
+        "num_days": 1
+    },
+    "Start of J2": {
+        "day": 9,
+        "month": 1,
+        "num_days": 1
+    },
+    "SEC 1 PHOTOS TAKING 2023": {
+        "day": 10,
+        "month": 1,
+        "num_days": 1
+    },
+    "CCA Orientation II": {
+        "day": 11,
+        "month": 1,
+        "num_days": 1
+    },
+    "CCAO II": {
+        "day": 11,
+        "month": 1,
+        "num_days": 1
+    },
+    "CCA Orientation III": {
+        "day": 13,
+        "month": 1,
+        "num_days": 1
+    },
+    "CCAO III": {
+        "day": 13,
+        "month": 1,
+        "num_days": 1
+    },
+    "CCA Orientation IV": {
+        "day": 18,
+        "month": 1,
+        "num_days": 1
+    },
+    "CCAO IV": {
+        "day": 18,
+        "month": 1,
+        "num_days": 1
+    },
+    "CNY Celebration": {
+        "day": 20,
+        "month": 1,
+        "num_days": 1
+    },
+    "Chinese New Year": {
+        "day": 22,
+        "month": 1,
+        "num_days": 2
+    },
+    "Chinese New Year (Public Holiday)": {
+        "day": 24,
+        "month": 1,
+        "num_days": 1
+    },
+    "CCA Orientation V": {
+        "day": 25,
+        "month": 1,
+        "num_days": 1
+    },
+    "CCAO V": {
+        "day": 25,
+        "month": 1,
+        "num_days": 1
+    },
+    "S1 and S2 Parents' Symposium (Time TBC)": {
+        "day": 4,
+        "month": 2,
+        "num_days": 1
+    },
+    "Sec 1 and S2 Parents' Symposium (Time TBC)": {
+        "day": 4,
+        "month": 2,
+        "num_days": 1
+    },
+    "S1 and Sec 2 Parents' Symposium (Time TBC)": {
+        "day": 4,
+        "month": 2,
+        "num_days": 1
+    },
+    "NRIC REGISTRATION FOR 15 YEARS OLD": {
+        "day": 7,
+        "month": 2,
+        "num_days": 1
+    },
+    "Photo Taking for Yearbook": {
+        "day": 10,
+        "month": 2,
+        "num_days": 2
+    },
+    "S3 and S4 Parents' Symposium (Time TBC)": {
+        "day": 18,
+        "month": 2,
+        "num_days": 1
+    },
+    "Sec 3 and S4 Parents' Symposium (Time TBC)": {
+        "day": 18,
+        "month": 2,
+        "num_days": 1
+    },
+    "S3 and Sec 4 Parents' Symposium (Time TBC)": {
+        "day": 18,
+        "month": 2,
+        "num_days": 1
+    },
+    "Sec 3 & J1 ESIS Test (Shortlisted students)": {
+        "day": 4,
+        "month": 3,
+        "num_days": 1
+    },
+    "Sabbaticals": {
+        "day": 6,
+        "month": 3,
+        "num_days": 10
+    },
+    "Sabbats": {
+        "day": 6,
+        "month": 3,
+        "num_days": 10
+    },
+    "Secondary One Adventure Camp (SOAC)": {
+        "day": 8,
+        "month": 3,
+        "num_days": 3
+    },
+    "Chinese Song Singing Competition": {
+        "day": 23,
+        "month": 3,
+        "num_days": 1
+    },
+    "Project Work Proposal Evaluation": {
+        "day": 30,
+        "month": 3,
+        "num_days": 1
+    },
+    "Personal Learning Device Deployment": {
+        "day": 30,
+        "month": 3,
+        "num_days": 1
+    },
+    "Founders' Day Prize Giving Ceremony": {
+        "day": 3,
+        "month": 4,
+        "num_days": 1
+    },
+    "World Book Day Celebrations": {
+        "day": 5,
+        "month": 4,
+        "num_days": 1
+    },
+    "Good Friday": {
+        "day": 7,
+        "month": 4,
+        "num_days": 1
+    },
+    "Sec 4 Higher Chinese Oral": {
+        "day": 10,
+        "month": 4,
+        "num_days": 4
+    },
+    "HS Studies Committee Meeting (SCM)": {
+        "day": 20,
+        "month": 4,
+        "num_days": 1
+    },
+    "Highschool Studies Committee Meeting (SCM)": {
+        "day": 20,
+        "month": 4,
+        "num_days": 1
+    },
+    "Hari Raya Puasa": {
+        "day": 22,
+        "month": 4,
+        "num_days": 1
+    },
+    "Hari Raya Puasa (scheduled Sch Holiday)": {
+        "day": 24,
+        "month": 4,
+        "num_days": 1
+    },
+    "Hari Raya Puasa (Schooleduled Sch Holiday)": {
+        "day": 24,
+        "month": 4,
+        "num_days": 1
+    },
+    "Sec 3 Higher Chinese Oral Exam": {
+        "day": 2,
+        "month": 5,
+        "num_days": 4
+    },
+    "Labour Day": {
+        "day": 1,
+        "month": 5,
+        "num_days": 1
+    },
+    "English Lan & Lit Common Test (Sec 1 & 2)": {
+        "day": 5,
+        "month": 5,
+        "num_days": 1
+    },
+    "Secondary 3 Outward Bound Singapore Programme (Batch 1)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Secondary 3 OBS Programme (Batch 1)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Secondary 3 Outward Bound Singapore Programme (Batch 2)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "Secondary 3 OBS Programme (Batch 2)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "High School Open House": {
+        "day": 20,
+        "month": 5,
+        "num_days": 1
+    },
+    "Vesak Day": {
+        "day": 2,
+        "month": 6,
+        "num_days": 1
+    },
+    "National Chinese Riddle Competition": {
+        "day": 24,
+        "month": 6,
+        "num_days": 1
+    },
+    "Hari Raya Haji": {
+        "day": 29,
+        "month": 6,
+        "num_days": 1
+    },
+    "Higher Chinese Common Test 2 (Sec 1 to 4)": {
+        "day": 30,
+        "month": 6,
+        "num_days": 1
+    },
+    "Youth Day": {
+        "day": 2,
+        "month": 7,
+        "num_days": 1
+    },
+    "Youth Day (scheduled school holiday)": {
+        "day": 3,
+        "month": 7,
+        "num_days": 1
+    },
+    "Youth Day (Schooleduled Schoolool holiday)": {
+        "day": 3,
+        "month": 7,
+        "num_days": 1
+    },
+    "Mathematics Common Test (Sec 1 to 4)": {
+        "day": 7,
+        "month": 7,
+        "num_days": 1
+    },
+    "Asian Youth Chinese Forum": {
+        "day": 10,
+        "month": 7,
+        "num_days": 3
+    },
+    "Project Work Discussions (Sec 2 to 4)": {
+        "day": 14,
+        "month": 7,
+        "num_days": 1
+    },
+    "Chinese Drama Appreciation (Sec 1)": {
+        "day": 11,
+        "month": 7,
+        "num_days": 1
+    },
+    "Biology Common Test (Sec 3 & 4)": {
+        "day": 12,
+        "month": 7,
+        "num_days": 1
+    },
+    "Bio Common Test (Sec 3 & 4)": {
+        "day": 12,
+        "month": 7,
+        "num_days": 1
+    },
+    "Chinese Drama Appreciation (Sec 3)": {
+        "day": 12,
+        "month": 7,
+        "num_days": 1
+    },
+    "CSC Common Test": {
+        "day": 19,
+        "month": 7,
+        "num_days": 1
+    },
+    "Project Work Discussions": {
+        "day": 21,
+        "month": 7,
+        "num_days": 1
+    },
+    "SBNDP Rehearsal 1": {
+        "day": 19,
+        "month": 7,
+        "num_days": 1
+    },
+    "SBNDP Rehearsal 2": {
+        "day": 21,
+        "month": 7,
+        "num_days": 1
+    },
+    "Australian Math Competition": {
+        "day": 3,
+        "month": 8,
+        "num_days": 1
+    },
+    "EL Drama Club's Annual Production": {
+        "day": 4,
+        "month": 8,
+        "num_days": 1
+    },
+    "Social Studies/HP-GE Common Test (Sec 3 & 4)": {
+        "day": 4,
+        "month": 8,
+        "num_days": 1
+    },
+    "SBNDP Rehearsal 3": {
+        "day": 4,
+        "month": 8,
+        "num_days": 1
+    },
+    "National Day": {
+        "day": 9,
+        "month": 8,
+        "num_days": 1
+    },
+    "National Day (scheduled Sch Holiday)": {
+        "day": 10,
+        "month": 8,
+        "num_days": 1
+    },
+    "National Day (Schooleduled Sch Holiday)": {
+        "day": 10,
+        "month": 8,
+        "num_days": 1
+    },
+    "Project Work Report Submission (Sec 2-4)": {
+        "day": 11,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec 4 EOC Practical Exam Briefing": {
+        "day": 11,
+        "month": 8,
+        "num_days": 1
+    },
+    "S4 Prelim Exams": {
+        "day": 18,
+        "month": 8,
+        "num_days": 13
+    },
+    "Sec 4 Prelim Exams": {
+        "day": 18,
+        "month": 8,
+        "num_days": 13
+    },
+    "Project Work Final Evaluation for Sec 2-4": {
+        "day": 17,
+        "month": 8,
+        "num_days": 1
+    },
+    "Project Work Reflection Submission (Sec 2-4)": {
+        "day": 18,
+        "month": 8,
+        "num_days": 1
+    },
+    "S3 Options Briefing for S2 Parents": {
+        "day": 19,
+        "month": 8,
+        "num_days": 1
+    },
+    "S3 Options Briefing for Sec 2 Parents": {
+        "day": 19,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec 3 Options Briefing for S2 Parents": {
+        "day": 19,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec 3 Options Briefing": {
+        "day": 18,
+        "month": 8,
+        "num_days": 1
+    },
+    "Chinese Song Writing Competition": {
+        "day": 18,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec 2 Speech Assessment": {
+        "day": 23,
+        "month": 8,
+        "num_days": 2
+    },
+    "Sec 4 Physics Practical Examination": {
+        "day": 21,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec 4 Phys Practical Examination": {
+        "day": 21,
+        "month": 8,
+        "num_days": 1
+    },
+    "Chinese Drama Performance": {
+        "day": 24,
+        "month": 8,
+        "num_days": 2
+    },
+    "Sec 4 Biology Practical Examination": {
+        "day": 23,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec 4 Bio Practical Examination": {
+        "day": 23,
+        "month": 8,
+        "num_days": 1
+    },
+    "Projects Selection for Projects Day": {
+        "day": 24,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec 4 Chemistry Practical Examination": {
+        "day": 29,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec 4 Chem Practical Examination": {
+        "day": 29,
+        "month": 8,
+        "num_days": 1
+    },
+    "Teachers' Day": {
+        "day": 1,
+        "month": 9,
+        "num_days": 1
+    },
+    "Projects Day 2023 (Rehearsal 1)": {
+        "day": 4,
+        "month": 9,
+        "num_days": 1
+    },
+    "Term 4": {
+        "day": 11,
+        "month": 9,
+        "num_days": 89
+    },
+    "S4 Prelim Exams (cont'd)": {
+        "day": 11,
+        "month": 9,
+        "num_days": 5
+    },
+    "Sec 4 Prelim Exams (cont'd)": {
+        "day": 11,
+        "month": 9,
+        "num_days": 5
+    },
+    "Projects Day 2023 (Full Dress Rehearsal)": {
+        "day": 11,
+        "month": 9,
+        "num_days": 1
+    },
+    "BSP Oral Defence": {
+        "day": 13,
+        "month": 9,
+        "num_days": 1
+    },
+    "Projects Day 2023 (Tech Rehearsal)": {
+        "day": 14,
+        "month": 9,
+        "num_days": 1
+    },
+    "Projects Day": {
+        "day": 15,
+        "month": 9,
+        "num_days": 1
+    },
+    "S4 MSP Exam": {
+        "day": 20,
+        "month": 9,
+        "num_days": 1
+    },
+    "Sec 4 MSP Exam": {
+        "day": 20,
+        "month": 9,
+        "num_days": 1
+    },
+    "S4 EOY Exams": {
+        "day": 27,
+        "month": 9,
+        "num_days": 22
+    },
+    "Sec 4 EOY Exams": {
+        "day": 27,
+        "month": 9,
+        "num_days": 22
+    },
+    "S3 EOY Exams": {
+        "day": 28,
+        "month": 9,
+        "num_days": 21
+    },
+    "Sec 3 EOY Exams": {
+        "day": 28,
+        "month": 9,
+        "num_days": 21
+    },
+    "S1 & 2 EOY Exams": {
+        "day": 29,
+        "month": 9,
+        "num_days": 20
+    },
+    "Sec 1 & 2 EOY Exams": {
+        "day": 29,
+        "month": 9,
+        "num_days": 20
+    },
+    "Exams Marking Days": {
+        "day": 12,
+        "month": 10,
+        "num_days": 2
+    },
+    "Exam Paper Checking Days": {
+        "day": 16,
+        "month": 10,
+        "num_days": 3
+    },
+    "Festival of Sports, Health & Arts (FOSHA) (Tentative)": {
+        "day": 19,
+        "month": 10,
+        "num_days": 4
+    },
+    "S1 Project Work Training (Time TBC)": {
+        "day": 19,
+        "month": 10,
+        "num_days": 4
+    },
+    "Sec 1 Project Work Training (Time TBC)": {
+        "day": 19,
+        "month": 10,
+        "num_days": 4
+    },
+    "Last day of sch for HS students": {
+        "day": 27,
+        "month": 10,
+        "num_days": 1
+    },
+    "Last day of sch for Highschool students": {
+        "day": 27,
+        "month": 10,
+        "num_days": 1
+    },
+    "Last day of School for HS students": {
+        "day": 27,
+        "month": 10,
+        "num_days": 1
+    },
+    "Year-End Remedial Programme": {
+        "day": 30,
+        "month": 10,
+        "num_days": 32
+    },
+    "Year-End School Holidays": {
+        "day": 18,
+        "month": 11,
+        "num_days": 58
+    },
+    "Deepavali": {
+        "day": 12,
+        "month": 11,
+        "num_days": 1
+    },
+    "Deepavali (Public Holiday)": {
+        "day": 13,
+        "month": 11,
+        "num_days": 1
+    },
+    "Christmas Day": {
+        "day": 25,
+        "month": 12,
+        "num_days": 1
+    }
+}

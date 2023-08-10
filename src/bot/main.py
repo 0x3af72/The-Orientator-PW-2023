@@ -62,8 +62,8 @@ async def on_message(message):
         return
     
     # get the event details
-    if message.content.startswith("!date "):
-        event_name = message.content.strip("!date ")
+    if message.content.startswith("?date "):
+        event_name = message.content.strip("?date ")
         if not event_name: 
             return
         data = get_isp_events.get_event(event_name)

@@ -4,7 +4,14 @@ from transformers.utils import logging
 import sqlite3
 import json
 
+from dotenv import load_dotenv
+import os
+
 logging.set_verbosity_error()
+
+load_dotenv()
+
+PARENT_DIR = os.environ.get("PARENT_DIR")
 
 con = sqlite3.connect("conversation_history.db")
 cur = con.cursor()
@@ -12,18 +19,22 @@ cur.execute("CREATE TABLE IF NOT EXISTS dialogpt_conversations (user_id TEXT, ch
 con.commit()
 con.close()
 
+checkpoint = PARENT_DIR + "models/model-132744/final"
+
 print("Loading DialoGPT tokeniser...", end="")
-dialogpt_tokeniser = AutoTokenizer.from_pretrained("microsoft/DialoGPT-small")
+dialogpt_tokeniser = AutoTokenizer.from_pretrained(checkpoint)
 print("Done")
 
 print("Loading DialoGPT model...", end="")
-dialogpt_model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-small")
+dialogpt_model = AutoModelForCausalLM.from_pretrained(checkpoint)
 print("Done")
 
 dialogpt_tokeniser.pad_token = dialogpt_tokeniser.eos_token
 dialogpt_tokeniser.pad_token_id = dialogpt_tokeniser.eos_token_id
 
 def query_response(query, user_id):
+    query = query.capitalize() + "?"
+
     # get database cursor
     con = sqlite3.connect("conversation_history.db") # NOTE: not sure if we should keep connecting
     cur = con.cursor()
