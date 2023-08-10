@@ -155,6 +155,7 @@ cython_debug/
 # Other
 test/
 src/temp
+src/data/augmented_data.csv
 
 bot.json
 isp_cookies.json
