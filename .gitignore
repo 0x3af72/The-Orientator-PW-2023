@@ -157,5 +157,6 @@ test/
 src/temp
 
 bot.json
+isp_cookies.json
 models/*
 conversation_history.db
