@@ -32,8 +32,11 @@ print("Done")
 dialogpt_tokeniser.pad_token = dialogpt_tokeniser.eos_token
 dialogpt_tokeniser.pad_token_id = dialogpt_tokeniser.eos_token_id
 
-def query_response(query, user_id):
-    query = query.capitalize() + "?"
+def query_response(query: str, user_id: int):
+    query = query.capitalize()
+
+    if query[-1] != "?":
+        query += "?"
 
     # get database cursor
     con = sqlite3.connect("conversation_history.db") # NOTE: not sure if we should keep connecting
@@ -53,34 +56,28 @@ def query_response(query, user_id):
 
     # tokenise chat history and query
     dialogpt_input_tokens = dialogpt_tokeniser.encode(
-        f"{dialogpt_tokeniser.eos_token}".join(dialogpt_history[:3]) + dialogpt_tokeniser.eos_token, 
-        padding=True, 
-        truncation=True, 
-        return_tensors="pt")
+        # text = f"{dialogpt_tokeniser.eos_token}".join(dialogpt_history[-3:]) + dialogpt_tokeniser.eos_token, 
+        text = query + dialogpt_tokeniser.eos_token,
+        padding = True, 
+        truncation = True, 
+        return_tensors = "pt")
 
     # generate response through top_k and top_p sampling    
     dialogpt_response_tokens = dialogpt_model.generate(
             dialogpt_input_tokens,
-            max_length = 1000,
+            max_length = 200,
             do_sample = True,
-            top_k = 100,
-            top_p = 0.90, 
-            temperature = 0.70
+            top_k = 10,
+            top_p = 0.75, 
+            temperature = 0.50
         )
-    
+
     # decode response
     dialogpt_response_text = dialogpt_tokeniser.decode(dialogpt_response_tokens[:, dialogpt_input_tokens.shape[-1]:][0], skip_special_tokens=True)
-    print(f"""
-QUERY: {query}
-USER ID: {user_id}
-RESPONSE: {dialogpt_response_text}
-""")
+    print(f"QUERY: {query} \nUSER ID: {user_id} \nRESPONSE: {' '.join(dialogpt_response_text.split(' ')[:len(query.split(' '))*25])}")
 
     # add to history
     dialogpt_history.append(dialogpt_response_text)
-
-    # limiting input tokens to 7 (including input)
-    dialogpt_history = dialogpt_history[-6:]
 
     # add conversation record into db, close connection
     dialogpt_json = json.dumps(dialogpt_history)
@@ -98,4 +95,4 @@ RESPONSE: {dialogpt_response_text}
 
 if __name__ == "__main__":
     # test query response
-    print(query_response("how was your day", "jeff"))
+    query_response("who are you", "jeff")
