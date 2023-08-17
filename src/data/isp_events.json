@@ -643,5 +643,790 @@
         "day": 25,
         "month": 12,
         "num_days": 1
+    },
+    "Sec One Adventure Camp (SOAC)": {
+        "day": 8,
+        "month": 3,
+        "num_days": 3
+    },
+    "Sec 3 Outward Bound Singapore Programme (Batch 1)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Sec 3 OBS Programme (Batch 1)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Sec 3 Outward Bound Singapore Programme (Batch 2)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "Sec 3 OBS Programme (Batch 2)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "Secondary 1 Adventure Camp (SOAC)": {
+        "day": 8,
+        "month": 3,
+        "num_days": 3
+    },
+    "Sec 1 Adventure Camp (SOAC)": {
+        "day": 8,
+        "month": 3,
+        "num_days": 3
+    },
+    "Term One": {
+        "day": 3,
+        "month": 1,
+        "num_days": 282
+    },
+    "Onest day of sch for HS teachers & students": {
+        "day": 3,
+        "month": 1,
+        "num_days": 1
+    },
+    "Onest day of sch for Highschool teachers & students": {
+        "day": 3,
+        "month": 1,
+        "num_days": 1
+    },
+    "Onest day of School for HS teachers & students": {
+        "day": 3,
+        "month": 1,
+        "num_days": 1
+    },
+    "SEC One PHOTOS TAKING 2023": {
+        "day": 10,
+        "month": 1,
+        "num_days": 1
+    },
+    "SOne and S2 Parents' Symposium (Time TBC)": {
+        "day": 4,
+        "month": 2,
+        "num_days": 1
+    },
+    "Sec One and S2 Parents' Symposium (Time TBC)": {
+        "day": 4,
+        "month": 2,
+        "num_days": 1
+    },
+    "SOne and Sec 2 Parents' Symposium (Time TBC)": {
+        "day": 4,
+        "month": 2,
+        "num_days": 1
+    },
+    "NRIC REGISTRATION FOR One5 YEARS OLD": {
+        "day": 7,
+        "month": 2,
+        "num_days": 1
+    },
+    "Sec 3 & JOne ESIS Test (Shortlisted students)": {
+        "day": 4,
+        "month": 3,
+        "num_days": 1
+    },
+    "English Lan & Lit Common Test (Sec One & 2)": {
+        "day": 5,
+        "month": 5,
+        "num_days": 1
+    },
+    "Secondary 3 Outward Bound Singapore Programme (Batch One)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Secondary 3 OBS Programme (Batch One)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Higher Chinese Common Test 2 (Sec One to 4)": {
+        "day": 30,
+        "month": 6,
+        "num_days": 1
+    },
+    "Mathematics Common Test (Sec One to 4)": {
+        "day": 7,
+        "month": 7,
+        "num_days": 1
+    },
+    "Chinese Drama Appreciation (Sec One)": {
+        "day": 11,
+        "month": 7,
+        "num_days": 1
+    },
+    "SBNDP Rehearsal One": {
+        "day": 19,
+        "month": 7,
+        "num_days": 1
+    },
+    "Projects Day 2023 (Rehearsal One)": {
+        "day": 4,
+        "month": 9,
+        "num_days": 1
+    },
+    "SOne & 2 EOY Exams": {
+        "day": 29,
+        "month": 9,
+        "num_days": 20
+    },
+    "Sec One & 2 EOY Exams": {
+        "day": 29,
+        "month": 9,
+        "num_days": 20
+    },
+    "SOne Project Work Training (Time TBC)": {
+        "day": 19,
+        "month": 10,
+        "num_days": 4
+    },
+    "Sec One Project Work Training (Time TBC)": {
+        "day": 19,
+        "month": 10,
+        "num_days": 4
+    },
+    "Sec 3 Outward Bound Singapore Programme (Batch One)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Sec 3 OBS Programme (Batch One)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Start of JCTwo": {
+        "day": 9,
+        "month": 1,
+        "num_days": 1
+    },
+    "Start of JTwo": {
+        "day": 9,
+        "month": 1,
+        "num_days": 1
+    },
+    "SEC 1 PHOTOS TAKING Two0Two3": {
+        "day": 10,
+        "month": 1,
+        "num_days": 1
+    },
+    "S1 and STwo Parents' Symposium (Time TBC)": {
+        "day": 4,
+        "month": 2,
+        "num_days": 1
+    },
+    "Sec 1 and STwo Parents' Symposium (Time TBC)": {
+        "day": 4,
+        "month": 2,
+        "num_days": 1
+    },
+    "S1 and Sec Two Parents' Symposium (Time TBC)": {
+        "day": 4,
+        "month": 2,
+        "num_days": 1
+    },
+    "English Lan & Lit Common Test (Sec 1 & Two)": {
+        "day": 5,
+        "month": 5,
+        "num_days": 1
+    },
+    "Secondary 3 Outward Bound Singapore Programme (Batch Two)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "Secondary 3 OBS Programme (Batch Two)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "Higher Chinese Common Test Two (Sec 1 to 4)": {
+        "day": 30,
+        "month": 6,
+        "num_days": 1
+    },
+    "Project Work Discussions (Sec Two to 4)": {
+        "day": 14,
+        "month": 7,
+        "num_days": 1
+    },
+    "SBNDP Rehearsal Two": {
+        "day": 21,
+        "month": 7,
+        "num_days": 1
+    },
+    "Project Work Report Submission (Sec Two-4)": {
+        "day": 11,
+        "month": 8,
+        "num_days": 1
+    },
+    "Project Work Final Evaluation for Sec Two-4": {
+        "day": 17,
+        "month": 8,
+        "num_days": 1
+    },
+    "Project Work Reflection Submission (Sec Two-4)": {
+        "day": 18,
+        "month": 8,
+        "num_days": 1
+    },
+    "S3 Options Briefing for STwo Parents": {
+        "day": 19,
+        "month": 8,
+        "num_days": 1
+    },
+    "S3 Options Briefing for Sec Two Parents": {
+        "day": 19,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec 3 Options Briefing for STwo Parents": {
+        "day": 19,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec Two Speech Assessment": {
+        "day": 23,
+        "month": 8,
+        "num_days": 2
+    },
+    "Projects Day Two0Two3 (Rehearsal 1)": {
+        "day": 4,
+        "month": 9,
+        "num_days": 1
+    },
+    "Projects Day Two0Two3 (Full Dress Rehearsal)": {
+        "day": 11,
+        "month": 9,
+        "num_days": 1
+    },
+    "Projects Day Two0Two3 (Tech Rehearsal)": {
+        "day": 14,
+        "month": 9,
+        "num_days": 1
+    },
+    "S1 & Two EOY Exams": {
+        "day": 29,
+        "month": 9,
+        "num_days": 20
+    },
+    "Sec 1 & Two EOY Exams": {
+        "day": 29,
+        "month": 9,
+        "num_days": 20
+    },
+    "Sec 3 Outward Bound Singapore Programme (Batch Two)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "Sec 3 OBS Programme (Batch Two)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "SEC One PHOTOS TAKING Two0Two3": {
+        "day": 10,
+        "month": 1,
+        "num_days": 1
+    },
+    "SOne and STwo Parents' Symposium (Time TBC)": {
+        "day": 4,
+        "month": 2,
+        "num_days": 1
+    },
+    "Sec One and STwo Parents' Symposium (Time TBC)": {
+        "day": 4,
+        "month": 2,
+        "num_days": 1
+    },
+    "SOne and Sec Two Parents' Symposium (Time TBC)": {
+        "day": 4,
+        "month": 2,
+        "num_days": 1
+    },
+    "English Lan & Lit Common Test (Sec One & Two)": {
+        "day": 5,
+        "month": 5,
+        "num_days": 1
+    },
+    "Higher Chinese Common Test Two (Sec One to 4)": {
+        "day": 30,
+        "month": 6,
+        "num_days": 1
+    },
+    "Projects Day Two0Two3 (Rehearsal One)": {
+        "day": 4,
+        "month": 9,
+        "num_days": 1
+    },
+    "SOne & Two EOY Exams": {
+        "day": 29,
+        "month": 9,
+        "num_days": 20
+    },
+    "Sec One & Two EOY Exams": {
+        "day": 29,
+        "month": 9,
+        "num_days": 20
+    },
+    "SEC 1 PHOTOS TAKING 202Three": {
+        "day": 10,
+        "month": 1,
+        "num_days": 1
+    },
+    "SThree and S4 Parents' Symposium (Time TBC)": {
+        "day": 18,
+        "month": 2,
+        "num_days": 1
+    },
+    "Sec Three and S4 Parents' Symposium (Time TBC)": {
+        "day": 18,
+        "month": 2,
+        "num_days": 1
+    },
+    "SThree and Sec 4 Parents' Symposium (Time TBC)": {
+        "day": 18,
+        "month": 2,
+        "num_days": 1
+    },
+    "Sec Three & J1 ESIS Test (Shortlisted students)": {
+        "day": 4,
+        "month": 3,
+        "num_days": 1
+    },
+    "Sec Three Higher Chinese Oral Exam": {
+        "day": 2,
+        "month": 5,
+        "num_days": 4
+    },
+    "Secondary Three Outward Bound Singapore Programme (Batch 1)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Secondary Three OBS Programme (Batch 1)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Secondary Three Outward Bound Singapore Programme (Batch 2)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "Secondary Three OBS Programme (Batch 2)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "Biology Common Test (Sec Three & 4)": {
+        "day": 12,
+        "month": 7,
+        "num_days": 1
+    },
+    "Bio Common Test (Sec Three & 4)": {
+        "day": 12,
+        "month": 7,
+        "num_days": 1
+    },
+    "Chinese Drama Appreciation (Sec Three)": {
+        "day": 12,
+        "month": 7,
+        "num_days": 1
+    },
+    "Social Studies/HP-GE Common Test (Sec Three & 4)": {
+        "day": 4,
+        "month": 8,
+        "num_days": 1
+    },
+    "SBNDP Rehearsal Three": {
+        "day": 4,
+        "month": 8,
+        "num_days": 1
+    },
+    "SThree Options Briefing for S2 Parents": {
+        "day": 19,
+        "month": 8,
+        "num_days": 1
+    },
+    "SThree Options Briefing for Sec 2 Parents": {
+        "day": 19,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec Three Options Briefing for S2 Parents": {
+        "day": 19,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec Three Options Briefing": {
+        "day": 18,
+        "month": 8,
+        "num_days": 1
+    },
+    "Projects Day 202Three (Rehearsal 1)": {
+        "day": 4,
+        "month": 9,
+        "num_days": 1
+    },
+    "Projects Day 202Three (Full Dress Rehearsal)": {
+        "day": 11,
+        "month": 9,
+        "num_days": 1
+    },
+    "Projects Day 202Three (Tech Rehearsal)": {
+        "day": 14,
+        "month": 9,
+        "num_days": 1
+    },
+    "SThree EOY Exams": {
+        "day": 28,
+        "month": 9,
+        "num_days": 21
+    },
+    "Sec Three EOY Exams": {
+        "day": 28,
+        "month": 9,
+        "num_days": 21
+    },
+    "Sec Three Outward Bound Singapore Programme (Batch 1)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Sec Three OBS Programme (Batch 1)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Sec Three Outward Bound Singapore Programme (Batch 2)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "Sec Three OBS Programme (Batch 2)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "SEC One PHOTOS TAKING 202Three": {
+        "day": 10,
+        "month": 1,
+        "num_days": 1
+    },
+    "Sec Three & JOne ESIS Test (Shortlisted students)": {
+        "day": 4,
+        "month": 3,
+        "num_days": 1
+    },
+    "Secondary Three Outward Bound Singapore Programme (Batch One)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Secondary Three OBS Programme (Batch One)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Projects Day 202Three (Rehearsal One)": {
+        "day": 4,
+        "month": 9,
+        "num_days": 1
+    },
+    "Sec Three Outward Bound Singapore Programme (Batch One)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "Sec Three OBS Programme (Batch One)": {
+        "day": 8,
+        "month": 5,
+        "num_days": 5
+    },
+    "SEC 1 PHOTOS TAKING Two0TwoThree": {
+        "day": 10,
+        "month": 1,
+        "num_days": 1
+    },
+    "Secondary Three Outward Bound Singapore Programme (Batch Two)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "Secondary Three OBS Programme (Batch Two)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "SThree Options Briefing for STwo Parents": {
+        "day": 19,
+        "month": 8,
+        "num_days": 1
+    },
+    "SThree Options Briefing for Sec Two Parents": {
+        "day": 19,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec Three Options Briefing for STwo Parents": {
+        "day": 19,
+        "month": 8,
+        "num_days": 1
+    },
+    "Projects Day Two0TwoThree (Rehearsal 1)": {
+        "day": 4,
+        "month": 9,
+        "num_days": 1
+    },
+    "Projects Day Two0TwoThree (Full Dress Rehearsal)": {
+        "day": 11,
+        "month": 9,
+        "num_days": 1
+    },
+    "Projects Day Two0TwoThree (Tech Rehearsal)": {
+        "day": 14,
+        "month": 9,
+        "num_days": 1
+    },
+    "Sec Three Outward Bound Singapore Programme (Batch Two)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "Sec Three OBS Programme (Batch Two)": {
+        "day": 15,
+        "month": 5,
+        "num_days": 5
+    },
+    "SEC One PHOTOS TAKING Two0TwoThree": {
+        "day": 10,
+        "month": 1,
+        "num_days": 1
+    },
+    "Projects Day Two0TwoThree (Rehearsal One)": {
+        "day": 4,
+        "month": 9,
+        "num_days": 1
+    },
+    "S3 and SFour Parents' Symposium (Time TBC)": {
+        "day": 18,
+        "month": 2,
+        "num_days": 1
+    },
+    "Sec 3 and SFour Parents' Symposium (Time TBC)": {
+        "day": 18,
+        "month": 2,
+        "num_days": 1
+    },
+    "S3 and Sec Four Parents' Symposium (Time TBC)": {
+        "day": 18,
+        "month": 2,
+        "num_days": 1
+    },
+    "Sec Four Higher Chinese Oral": {
+        "day": 10,
+        "month": 4,
+        "num_days": 4
+    },
+    "Higher Chinese Common Test 2 (Sec 1 to Four)": {
+        "day": 30,
+        "month": 6,
+        "num_days": 1
+    },
+    "Mathematics Common Test (Sec 1 to Four)": {
+        "day": 7,
+        "month": 7,
+        "num_days": 1
+    },
+    "Project Work Discussions (Sec 2 to Four)": {
+        "day": 14,
+        "month": 7,
+        "num_days": 1
+    },
+    "Biology Common Test (Sec 3 & Four)": {
+        "day": 12,
+        "month": 7,
+        "num_days": 1
+    },
+    "Bio Common Test (Sec 3 & Four)": {
+        "day": 12,
+        "month": 7,
+        "num_days": 1
+    },
+    "Social Studies/HP-GE Common Test (Sec 3 & Four)": {
+        "day": 4,
+        "month": 8,
+        "num_days": 1
+    },
+    "Project Work Report Submission (Sec 2-Four)": {
+        "day": 11,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec Four EOC Practical Exam Briefing": {
+        "day": 11,
+        "month": 8,
+        "num_days": 1
+    },
+    "SFour Prelim Exams": {
+        "day": 18,
+        "month": 8,
+        "num_days": 13
+    },
+    "Sec Four Prelim Exams": {
+        "day": 18,
+        "month": 8,
+        "num_days": 13
+    },
+    "Project Work Final Evaluation for Sec 2-Four": {
+        "day": 17,
+        "month": 8,
+        "num_days": 1
+    },
+    "Project Work Reflection Submission (Sec 2-Four)": {
+        "day": 18,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec Four Physics Practical Examination": {
+        "day": 21,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec Four Phys Practical Examination": {
+        "day": 21,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec Four Biology Practical Examination": {
+        "day": 23,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec Four Bio Practical Examination": {
+        "day": 23,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec Four Chemistry Practical Examination": {
+        "day": 29,
+        "month": 8,
+        "num_days": 1
+    },
+    "Sec Four Chem Practical Examination": {
+        "day": 29,
+        "month": 8,
+        "num_days": 1
+    },
+    "Term Four": {
+        "day": 11,
+        "month": 9,
+        "num_days": 89
+    },
+    "SFour Prelim Exams (cont'd)": {
+        "day": 11,
+        "month": 9,
+        "num_days": 5
+    },
+    "Sec Four Prelim Exams (cont'd)": {
+        "day": 11,
+        "month": 9,
+        "num_days": 5
+    },
+    "SFour MSP Exam": {
+        "day": 20,
+        "month": 9,
+        "num_days": 1
+    },
+    "Sec Four MSP Exam": {
+        "day": 20,
+        "month": 9,
+        "num_days": 1
+    },
+    "SFour EOY Exams": {
+        "day": 27,
+        "month": 9,
+        "num_days": 22
+    },
+    "Sec Four EOY Exams": {
+        "day": 27,
+        "month": 9,
+        "num_days": 22
+    },
+    "Higher Chinese Common Test 2 (Sec One to Four)": {
+        "day": 30,
+        "month": 6,
+        "num_days": 1
+    },
+    "Mathematics Common Test (Sec One to Four)": {
+        "day": 7,
+        "month": 7,
+        "num_days": 1
+    },
+    "Higher Chinese Common Test Two (Sec 1 to Four)": {
+        "day": 30,
+        "month": 6,
+        "num_days": 1
+    },
+    "Project Work Discussions (Sec Two to Four)": {
+        "day": 14,
+        "month": 7,
+        "num_days": 1
+    },
+    "Project Work Report Submission (Sec Two-Four)": {
+        "day": 11,
+        "month": 8,
+        "num_days": 1
+    },
+    "Project Work Final Evaluation for Sec Two-Four": {
+        "day": 17,
+        "month": 8,
+        "num_days": 1
+    },
+    "Project Work Reflection Submission (Sec Two-Four)": {
+        "day": 18,
+        "month": 8,
+        "num_days": 1
+    },
+    "Higher Chinese Common Test Two (Sec One to Four)": {
+        "day": 30,
+        "month": 6,
+        "num_days": 1
+    },
+    "SThree and SFour Parents' Symposium (Time TBC)": {
+        "day": 18,
+        "month": 2,
+        "num_days": 1
+    },
+    "Sec Three and SFour Parents' Symposium (Time TBC)": {
+        "day": 18,
+        "month": 2,
+        "num_days": 1
+    },
+    "SThree and Sec Four Parents' Symposium (Time TBC)": {
+        "day": 18,
+        "month": 2,
+        "num_days": 1
+    },
+    "Biology Common Test (Sec Three & Four)": {
+        "day": 12,
+        "month": 7,
+        "num_days": 1
+    },
+    "Bio Common Test (Sec Three & Four)": {
+        "day": 12,
+        "month": 7,
+        "num_days": 1
+    },
+    "Social Studies/HP-GE Common Test (Sec Three & Four)": {
+        "day": 4,
+        "month": 8,
+        "num_days": 1
     }
 }
