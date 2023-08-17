@@ -22,7 +22,7 @@ days_month_before = [
 ]
 
 # Variations list
-variations_list = {'S1': 'Sec 1', 'S2': 'Sec 2', 'S3': 'Sec 3', 'S4': 'Sec 4', 'HS': 'Highschool', 'CCA Orientation': 'CCAO', 'Sabbaticals': 'Sabbats', 'Outward Bound Singapore': 'OBS', 'sch': 'School', 'JC2': 'J2', 'JC1': 'J1', 'Biology': 'Bio', 'Physics': 'Phys', 'Chemistry': 'Chem'}
+variations_list = {'S1': 'Sec 1', 'S2': 'Sec 2', 'S3': 'Sec 3', 'S4': 'Sec 4', 'HS': 'Highschool', 'CCA Orientation': 'CCAO', 'Sabbaticals': 'Sabbats', 'Outward Bound Singapore': 'OBS', 'sch': 'School', 'JC2': 'J2', 'JC1': 'J1', 'Biology': 'Bio', 'Physics': 'Phys', 'Chemistry': 'Chem', 'One': '1', 'Two': '2', 'Three': '3', 'Four': '4', '1': 'One', '2': 'Two', '3': 'Three', '4': 'Four', 'Secondary': 'Sec'}
 
 # Function to load cookies
 def load_cookies(file):
