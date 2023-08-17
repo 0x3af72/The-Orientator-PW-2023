@@ -6,7 +6,7 @@ global_start = time.time()
 # discord bot wrapper
 import nextcord
 from nextcord.ext import commands
-from nextcord.ext.commands.context import Context
+from nextcord import Message
 
 # others
 import get_isp_events
@@ -30,7 +30,7 @@ Click the button below to create a channel where you can interact with me privat
 """
 
 # create bot
-bot = commands.Bot(command_prefix="!", intents=nextcord.Intents.all())
+bot = commands.Bot(command_prefix="?", intents=nextcord.Intents.all())
 
 # button for creating ticket
 channel_ids = set()
@@ -56,7 +56,7 @@ class TicketButton(nextcord.ui.View):
 
 # formerly !query command
 @bot.event
-async def on_message(message):
+async def on_message(message: Message):
     # ignore messages from bot
     if message.author == bot.user:
         return
@@ -71,12 +71,13 @@ async def on_message(message):
             return await message.reply("No matches found for this event.")
         print(data)
         event_data = data[1]
-        return await message.reply(f"Event Details '{data[0]}' is on the date {event_data['day']}/{event_data['month']} and it lasts for {event_data['num_days']} days.")
+        return await message.send(f"**Event Details** \nEvent Title : `{data[0]}` \nDate : `{event_data['day']}/{event_data['month']}/2023` \nDuration : `{event_data['num_days']}` days.")
 
     # check if in valid channel
     if message.channel.id in channel_ids:
         query = message.content
-        await message.channel.send(query_response.query_response(query, str(message.author.id)))    
+        async with message.channel.typing():
+            await message.channel.send(query_response.query_response(query, str(message.author.id)))
 
 # login confirmation
 on_ready_ran = False
